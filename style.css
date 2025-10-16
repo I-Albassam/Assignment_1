@@ -1,0 +1,107 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: url('moroccan-flower.png') repeat;
+}
+
+
+header {
+  background: #14a5c9;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 2%;
+  position: sticky;
+  top: 0;
+}
+
+header img {
+  width: 10%;
+  max-width: 60px;
+  height: auto;
+  border-radius: 50%;
+  margin-right: 2%;
+}
+
+nav ul {
+  display: flex;
+  gap: 15px;
+  text-decoration: none
+
+}
+
+nav a {
+  color: white;
+  padding: 6px 10px;
+  border-radius: 6px;
+  text-decoration: none
+}
+
+nav a:hover,
+.active {
+  background: white;
+  color: #14a5c9;
+}
+
+main {
+  width: 85%;
+  margin: 20px auto;
+  background: White;
+  padding: 20px;
+  border-radius: 10px;
+  display: grid;
+  gap: 30px;
+}
+
+
+#about p::first-letter {
+  font-size: 28px;
+  font-weight: bold;
+  color: #000000;
+}
+
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+tr:nth-child(odd) { background: #e8f6f6; }
+tr:nth-child(odd):hover {
+  background-color: #b2e0e0;
+}
+tr:nth-child(even):hover {
+  background-color: #dcecf2;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+input, textarea {
+  padding: 8px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+}
+button {
+  background: #14a5c9;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px;
+  cursor: pointer;
+}
+button:hover { background: #14a5c9; }
+footer {
+  background: #14a5c9;
+  color: white;
+  text-align: center;
+  padding: 8px;
+  margin-top: 20px;
+}
+

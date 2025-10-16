@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<head>
+<title>Contact Me</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <img src="Me2.jpg" alt="Profile">
+  <h2>Ibrahim Albassam</h2>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="schedule.html">My Schedule</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section>
+    <h2>Contact Me</h2>
+    <form action="https://webhook.site" method="POST">
+      <label>Name (required):</label>
+      <input type="text" name="name" required>
+      <label>Email:</label>
+      <input type="email" name="email" placeholder="example@example.com">
+      <label>Message:</label>
+      <textarea name="message" rows="8" required></textarea>
+      <label>Message Type:</label>
+  <label><input type="radio" name="type" value="feedback" required> Feedback</label>
+  <label><input type="radio" name="type" value="question"> Question</label>
+  <label><input type="radio" name="type" value="other"> Other</label>
+
+      <button type="submit">send message</button>
+    </form>
+  </section>
+</main>
+
+<footer>
+  <p>© 2025 Ibrahim Albassam</p>
+</footer>
+</body>
+</html>
